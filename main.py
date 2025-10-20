@@ -13,7 +13,6 @@ DB_PATH = "strings.db"
 app = FastAPI(title="Backend Wizards - Stage 1 String Analyzer")
 
 
-# ---------- Utilities ----------
 def utc_now_iso():
     return datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
 
